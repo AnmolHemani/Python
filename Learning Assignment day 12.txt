@@ -1,0 +1,59 @@
+# List Comprehension
+
+It is a shorter syntax when we want to create a new list from the existing list which we have.
+
+Example:
+existing_list=["apple","mango","banana","kiwi"]
+new_list=[]
+for i in existing_list:
+   if n in i:
+      new_list.append(i)
+print(new_list)
+
+
+# what is set data type and its function
+
+It is an unordered collection of a data type which is iterable, mutuable, and has no duplicate elements.
+
+Syntax: It is represented by { }
+
+Sets are used to store multiple items in a single variable.
+ 
+Functions: 
+add(element) --> to add single element
+update(iterable,list) --> to add elements of list
+remove(element) --> if element not found raise error
+discard(element) --> it will not raise an error if element not found
+pop() --> remove and return
+clear() --> remove all elements of set
+union() --> combine elements of two sets or more
+intersection() --> return common elements from two sets
+difference() --> return elements in one set not in another
+symmetric_difference() --> return elements which is not common in both sets
+issubset() --> check element of set is in another set or not
+issuperset() --> check elements of is superset of set
+copy() --> is used to copy set
+
+
+# real life use cases of list, dict and set
+
+LIST : 
+--> Task Management
+--> store user input
+--> managing inventory
+--> data visualization
+--> multistep process
+
+DICT. :
+--> store user profile
+--> configuration setting
+--> database record
+--> indexing items
+--> api response
+
+SETS :
+--> removing duplicates
+--> tagging items
+--> set operation
+--> membership testing
+--> fast lookups
